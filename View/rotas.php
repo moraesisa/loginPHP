@@ -19,26 +19,8 @@ switch ($url)
         LoginController::logout();
     break;
 
-
-
     case '/':
         echo "página inicial";
-        break;
-
-    case '/pessoa':
-        PessoaController::index();
-        break;
-
-    case '/pessoa/form':
-        PessoaController::form();
-        break;
-
-    case '/pessoa/form/save':
-        PessoaController::save();
-        break;
-
-    case '/pessoa/delete':
-        PessoaController::delete();
         break;
 
     default:
